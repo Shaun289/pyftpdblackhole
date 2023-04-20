@@ -4,7 +4,17 @@ ftp server for test
 # prerequisites
 
 ```
-$ pip install pyftpdlib
+$ sudo pip install pyftpdlib
+```
+
+# run
+
+```
+$ sudo python3 ftpd.py 
+[I 2023-04-20 11:39:18] concurrency model: async
+[I 2023-04-20 11:39:18] masquerade (NAT) address: None
+[I 2023-04-20 11:39:18] passive ports: None
+[I 2023-04-20 11:39:18] >>> starting FTP server on 0.0.0.0:21, pid=715050 <<<
 ```
 
 # action
