@@ -1,6 +1,12 @@
 # pyftpdblackhole
 ftp server for test
 
+# prerequisites
+
+```
+$ pip install pyftpdlib
+```
+
 # action
 - create temp directory
 - download files in temp directory
